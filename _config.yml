@@ -1,0 +1,21 @@
+# Site settings
+title: Hashed Out
+header-img: img/home-bg.png
+email: theinvalidnonce@gmail.com
+copyright_name: TheInvalidNonce
+description: > # this means to ignore newlines until "baseurl:"
+  Technical discussion, random musings, and bad puns
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  TheInvalidNonce
+learn_profile: TheInvalidNonce
+email_username: theinvalidnonce@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
