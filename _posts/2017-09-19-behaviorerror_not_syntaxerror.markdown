@@ -36,7 +36,8 @@ I fixed my short-sighted code above to:
 
 However, the infinite loop continued, much to my chagrin:
 
-![To infinity and nowhere](https://imgur.com/a/GsSQD)
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/GsSQD"><a href="//imgur.com/GsSQD"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+To infinity and nowhere
 
 One redeeming quality of this still imperfect logic that I noticed was: the infinite loop was different, as well as the methods being called. Since there were less tests failing, I knew I was on to something. 
 
