@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "BehaviorError, not SyntaxError "
-date:   2017-09-19 17:56:38 +0000
+date:   2017-09-19 13:56:39 -0400
 ---
 
 
@@ -9,7 +9,10 @@ For the past few days I have been working on a program of Tic Tac Toe in Ruby wi
 
 Overall, coding up this particular program was good practice since, in previous lessons we had made smaller, but functional iterations of this. However, as I was getting into the final parts of coding up the logic in Game class, I ran into an error:
 
-![Infinite loop](https://imgur.com/t2Qg1Hw)
+
+
+![https://imgur.com/t2Qg1Hw]
+Infinite loops
 
 Infinite loop!? Why?! My tests were passing, so I was sure my syntax was correct. So I began to look through all of my methods to see what could be the cause of this.
 
