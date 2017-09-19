@@ -11,8 +11,7 @@ Overall, coding up this particular program was good practice since, in previous 
 
 
 
-![https://imgur.com/t2Qg1Hw]
-Infinite loops
+<blockquote class="imgur-embed-pub" lang="en" data-id="t2Qg1Hw"><a href="//imgur.com/t2Qg1Hw"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 Infinite loop!? Why?! My tests were passing, so I was sure my syntax was correct. So I began to look through all of my methods to see what could be the cause of this.
 
