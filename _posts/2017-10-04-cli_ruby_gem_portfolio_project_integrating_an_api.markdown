@@ -97,7 +97,7 @@ This is where I had to make some substantial compromises in my code structure. I
 Unfortunately, this API gave me forecast data in 3 hour section hashes, totalling **40** hashes with a dozen keys and values per hash for a 5 day period. For the sake of getting this project done, I thought that getting working and submitted was more important than implementing a feature I knew would be impressive to nobody in its current form.
 
 # **Wrapping up**
-I am now at the final steps in submitting this gem to being publicly listed on RubyGems.org. I hope that it serves a purpose to someone, somewhere in the Ruby world. I found this project to be very thought provoking, and found myself exploring many methods in pry that I never would have tried. I managed to finish this project in 7 working days from conception to submission. I am looking forward to the next projects and definitely feel like I have learned a lot about finally building a standalone application.
+I am now at the final steps in submitting this gem to being publicly listed on RubyGems.org. I hope that it serves a purpose to someone, somewhere in the Ruby world. I found this project to be very thought provoking, and found myself exploring many methods in pry that I never would have tried before. I am looking forward to the next project and definitely feel like I have learned a lot about finally building a standalone application.
 
 My projects' [Github repo](https://github.com/TheInvalidNonce/weatherbot-cli-app)
 
