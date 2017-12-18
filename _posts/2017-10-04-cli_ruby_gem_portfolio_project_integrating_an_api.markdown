@@ -24,7 +24,7 @@ To be honest, it is hard to fully review the 1st substantial API you're using wi
 When I started, I was really tempted to go searching for a different API to use instead, eventually I got the hang of the way I was requesting data, and thankfully OpenWeatherMap had solid documentation that made the data useful to implement.
 
 # **HTTParty Time**
-I was told in a CLI Gem study group to use the HTTParty gem to allow Ruby to parse the response of the location I was requesting. If you're using Bundler, it’s easy to get started with HTTParty. Just add `spec.add_development_dependency "httparty", "~> 0.0"` to your .gemspec file, and `require 'httparty'` in your Ruby environment file, and you’re ready to go. 
+I was told in a CLI Gem study group to use the HTTParty gem to allow Ruby to parse the response of the location I was requesting. If you're using Bundler, it’s easy to get started with HTTParty. Just add `spec.add_development_dependency "httparty", "~> 0.10"` to your .gemspec file, and `require 'httparty'` in your Ruby environment file, and you’re ready to go. 
 
 If you want more info about Bundler, they’ve got a great site with all sorts of helpful information about how to get up and running at https://bundler.io.
 
