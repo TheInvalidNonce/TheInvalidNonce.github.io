@@ -64,13 +64,11 @@ Some ideas that come to mind:
 
 I hope this blog post was helpful to you. 
 
-```<insert shameless donation request>```
+`<insert shameless donation request>`
 
 If you are feeling overtly generous, feel free to donate to my beer fund here: 13Rc9xCX1wACh1MWwCNmTua61yqk7jPb4G
 
-```
-</insert shameless donation request>
-```
+`</insert shameless donation request>`
 
 **And now time for a beer...**
 
