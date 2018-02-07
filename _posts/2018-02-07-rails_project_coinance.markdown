@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails Project: Coinance"
-date:       2018-02-07 19:13:07 +0000
+date:       2018-02-07 14:13:08 -0500
 permalink:  rails_project_coinance
 ---
 
@@ -51,6 +51,7 @@ As frustrating as this was, it served a purpose: To allow us to understand each 
 
 In addition, we were still able to generate resources (such as empty base models, controllers, and migrations, which in the end was actually more useful since it did not create any unnecessary views and code.
 
+To be continued...
 
 
 
