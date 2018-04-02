@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Final Project: Airbrrrb - An Airbnb Clone made in React, Redux, and Rails"
-date:       2018-04-02 17:31:58 +0000
+date:       2018-04-02 13:31:59 -0400
 permalink:  final_project_airbrrrb_-_an_airbnb_clone_made_in_react_redux_and_rails
 ---
 
@@ -21,8 +21,8 @@ GET '/'
 ### Users
 
 GET '/api/users'
-GET '/api/users/:id'
 POST '/api/users'
+GET '/api/users/:id'
 PATCH '/api/users/:id'
 
 ### Venues
@@ -40,7 +40,12 @@ POST 'api/bookings'
 GET '/api/bookings:id'
 DELETE '/api/bookings/:id'
 
-ADD MORE MODELS AFTER
+### Reviews
+
+GET '/api/reviews'
+POST '/api/reviews'
+GET '/api/reviews/:id'
+DELETE '/api/reviews/:id'
 
 Component Hierarchy
 
@@ -56,5 +61,25 @@ Component Hierarchy
             - VenueFilter
             - VenueList
                 - VenueItem
+
+### Venue Page
+- App (div)
+    - Header (already created on main page)
+    - Main (div)
+        - **VenueShowContainer**
+        - Images
+        - Description
+        - Reviews
+        - HostInfo
+        - Location
+        - BookingForm
+        - 
+### User Profile Page
+- App (div)
+- Header (already created on main page)
+- Main (div)
+    - ** UserContainer**
+    - UserInfo
+    - Reviews
 
 
