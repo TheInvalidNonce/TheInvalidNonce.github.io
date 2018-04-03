@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Coinance: jQuery (How I Learned to Be Patient and Love the Debugger)"
+title:      "Coinance: jQuery (or How I Learned to Be Patient and Love the Debugger)"
 date:       2018-03-12 10:43:10 -0400
 permalink:  coinance_jquery_edition_or_how_i_learned_to_grow_patient_with_undefined
 ---
