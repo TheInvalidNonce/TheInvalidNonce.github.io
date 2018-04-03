@@ -12,74 +12,66 @@ To start this project I began by building out my API Endpoints and my React Comp
 
 API Endpoints
 
-## Root
+# Airbrrrb
 
-GET '/'
+[Live Site (heroku)]: https://airbrrrb.herokuapp.com
 
-## JSON API
+## Minimum Viable Product
 
-### Users
+Airbrrrb is a web application inspired by the world famous Airbnb site. The backend is built with a Rails 5 API and handles data persistence with a Postgresql database schema. The frontend is built with React & Redux and utilizes React Router and Redux Thunk middleware for state management. the app is also styled with Bootstrap CSS.
 
-GET '/api/users'
-POST '/api/users'
-GET '/api/users/:id'
-PATCH '/api/users/:id'
+### Features
 
-### Venues
+- [ ] User signup & Login w/ Auth0
+- [ ] Listings 
+- [ ] Bookings
+- [ ] Reviews
+- [ ] Search (by location, availability, price)
+- [ ] Google Maps API integration
 
-GET '/api/venues'
-POST '/api/venues'
-GET '/api/venues/:id'
-PATCH '/api/venues/:id'
-DELETE '/api/venues/:id'
+#### Bonus
+- [ ] Messaging
+- [ ] User/Host Profiles
+- [ ] Filtering
 
-### Bookings 
 
-GET 'api/bookings'
-POST 'api/bookings'
-GET '/api/bookings:id'
-DELETE '/api/bookings/:id'
+## Implementation Timeline
 
-### Reviews
+#### Step 1: Rails API backend setup, DB setup & migrations
 
-GET '/api/reviews'
-POST '/api/reviews'
-GET '/api/reviews/:id'
-DELETE '/api/reviews/:id'
+**Objectives** 
+  - Complete Rails backend and setup database schema.
 
-Component Hierarchy
+#### Step 2: Frontend User Authentication with Auth0
 
-### Main Page
+**Objectives**
+  - Fully functioning User Signup & Login.
 
-- App (div)
-    - Header
-        - **SearchContainer**
-            - Search
-        - Nav
-    - Main (div)
-        - ** VenueContainer**
-            - VenueFilter
-            - VenueList
-                - VenueItem
+#### Step 3: Listings model (CRUD actions) & components
+  
+**Objectives**
+  - CRUD actions for listings in API.
 
-### Venue Page
-- App (div)
-    - Header (already created on main page)
-    - Main (div)
-        - **VenueShowContainer**
-        - Images
-        - Description
-        - Reviews
-        - HostInfo
-        - Location
-        - BookingForm
-        - 
-### User Profile Page
-- App (div)
-- Header (already created on main page)
-- Main (div)
-    - ** UserContainer**
-    - UserInfo
-    - Reviews
+#### Step 4: Listings Search (with Google Maps API)
 
+**Objectives**
+  - Implement listings search with Google Maps API.
+  - SearchListingsContainer displays maps properly.
+
+#### Step 5: Bookings
+
+**Objectives**
+  - Allow users to Book a Listing.
+  - Set up endpoints and frontend components.
+
+#### Step 6: Reviews
+
+**Objectives**
+  - Allow Users to leave a Review on ListingDetailPage.
+  - Set up endpoints and frontend components.
+
+#### Step 7: Styling and Debugging
+
+**Objectives**
+  - Implement Bootstrap styling & debug any critical issues.
 
