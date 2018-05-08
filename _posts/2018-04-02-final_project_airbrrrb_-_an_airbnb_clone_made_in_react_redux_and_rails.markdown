@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Final Project: Airbrrrb - An Airbnb Clone made in React, Redux, and Rails"
+title:      "Final Project: Airbrb - An Airbnb Clone made in React, Redux, and Rails"
 date:       2018-04-02 13:31:59 -0400
 permalink:  final_project_airbrrrb_-_an_airbnb_clone_made_in_react_redux_and_rails
 ---
