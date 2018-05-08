@@ -14,7 +14,7 @@ API Endpoints
 
 # Airbrrrb
 
-[Live Site (heroku)]: https://airbrrrb.herokuapp.com
+[Live Site (heroku)]: https://airbrb.herokuapp.com
 
 ## Minimum Viable Product
 
