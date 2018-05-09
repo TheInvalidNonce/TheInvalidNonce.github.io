@@ -24,8 +24,7 @@ Note:
 If you don’t have experience with GraphQL, feel free to build API using Node.JS and use it in React Components.
 
 # Intro
-GraphQL is a data query language developed internally by Facebook in 2012, that was then released to the public in 2015. It provides an alternative to REST and ad-hoc webservice architechtures. t allows clients to define the structure of the data required, and exactly the same structure of the data is returned from the server. It is a strongly typed runtime which allows clients to dictate what data is needed. This avoids both the problems of over-fetching as well as under-fetching of data.
-
+[GraphQL](http://graphql.org/) is a data query language developed internally by Facebook in 2012, that was then released to the public in 2015. It provides an alternative to REST and ad-hoc webservice architechtures. t allows clients to define the structure of the data required, and exactly the same structure of the data is returned from the server. It is a strongly typed runtime which allows clients to dictate what data is needed. This avoids both the problems of over-fetching as well as under-fetching of data. The two most popular GraphQL clients are Relay, which is also made by Facebook, and Apollo, which is an open-source community-driven alternative.
 
 # Node/Express setup
 
