@@ -35,9 +35,42 @@ There are several advantages of GraphQL as opposed to normal SQL-based relationa
 
 **GraphQL is strongly-typed**: GraphQL APIs are organized in terms of types and fields, not endpoints. Access the full capabilities of your data from a single endpoint. GraphQL uses types to ensure Apps only ask for what’s possible and provide clear and helpful errors. Apps can use types to avoid writing manual parsing code.
 
-# Node/Express setup
+# Node Server setup
+To setup a Node.js GraphQL server, we create a new empty project folder:
 
-# GraphQL
+```
+mkdir graphql-server
+```
+
+Switch to that directory and we initialize a new `package.json` file by running:
+
+```
+npm init
+```
+
+Next, we create the new `server.js` file in the server directory. 
+
+```
+touch server.js
+```
+
+Alternatively, the '>' character in the Bash prompt is a `touch` alias:
+
+```
+> server.js
+```
+
+Finally we add the graphql, express, and express-graphql NPM packages to our project:
+
+```
+npm install graphql express express-graphql -save
+```
+
+You have now installed the proper dependencies to get server code started. On to Express!
+
+# Implementing a Simple GraphQL Server with Express
+
+
 
 # Relay vs Apollo
 
