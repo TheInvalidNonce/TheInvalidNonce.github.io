@@ -4,7 +4,7 @@ header-img: img/home-bg.png
 email: theinvalidnonce@gmail.com
 copyright_name: TheInvalidNonce
 description: > # this means to ignore newlines until "baseurl:"
-  Technical discussion, random musings, and bad puns
+  Technical discussion, random musings, and the occasional bad pun.
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  TheInvalidNonce
