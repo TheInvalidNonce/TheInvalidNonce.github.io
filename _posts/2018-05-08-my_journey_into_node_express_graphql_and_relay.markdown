@@ -69,8 +69,64 @@ npm install graphql express express-graphql -save
 You have now installed the proper dependencies to get server code started. On to Express!
 
 # Implementing a Simple GraphQL Server with Express
+Lets begin by adding this code into  `server.js`
 
+```
+const express = require('express')
+const expressGraphql = require('express-graphql')
+const schema = require('./schema/schema')
+const cors = require('cors')
 
+// Create the express server
+const app = express()
+
+// This is to allow Cross Origin Resource Sharing for the purposes of this example app
+app.use(cors())
+
+// Create the GraphQL endpoint of the Express server
+app.use(
+  '/graphql',
+  expressGraphql({
+    schema,
+    graphiql: true
+  })
+)
+
+app.listen(4000, () => console.log('Express GraphQL Server Now Running on localhost:4000/graphql'))
+```
+
+Let me explain what this block of code is doing. First we need to make sure that express, express-graphql, the schema (which I will build next), and cors packages are imported. 
+
+The Express server is created with a GraphQL endpoint: '/graphql'. We first need to store a new express instance in app. We then create the GraphQL endpoint and then utilize the app.use method call and pass it two parameters:
+
+1. The URL endpoint as a string
+2. A configuration object passed into the call of the express_graphql package containing two properties.
+
+The two configuration properties that are used for the Express GraphQL middleware are:
+
+1. `schema`: The GraphQL schema which should be attached to the specific endpoint
+2. `graphiql`: This is set to true to enable the GraphiQL data visualization tool. GraphiQL is an in-browser graphical interactive IDE . This tool is critical to writing queries in the browser and also test your endpoint out.
+
+Finally, `app.listen` starts our server on port 4000.
+
+To start this server you can use either:
+
+```
+node server.js
+```
+
+or while in the server folder:
+
+```
+yarn install
+```
+```
+yarn start
+```
+
+If you go to `localhost:4000/graphql` you should see this:
+
+![GraphuQL interface](https://cdn-images-1.medium.com/max/1600/0*TiL2iv3w7719s4GV.png)
 # Relay vs Apollo
 
 # React Front end
