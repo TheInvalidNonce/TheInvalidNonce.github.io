@@ -126,7 +126,10 @@ yarn start
 
 If you go to `localhost:4000/graphql` you should see this:
 
-![GraphuQL interface](https://cdn-images-1.medium.com/max/1600/0*TiL2iv3w7719s4GV.png)
+![GraphuQL interface](https://imgur.com/MjrWVmH)
+
+# The Schema Scheme
+I'd say the hardest part of figuring out where to go next was how to actually parse the provided JSON file.
 # Relay vs Apollo
 
 # React Front end
