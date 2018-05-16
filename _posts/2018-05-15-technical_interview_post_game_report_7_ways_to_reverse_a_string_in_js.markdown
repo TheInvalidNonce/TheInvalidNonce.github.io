@@ -56,7 +56,7 @@ const reverse = str =>{
   let newStr = ''
   while (i > 0) {
     newStr += str.substring(i - 1, i)
-    i--;
+    i--
   }
   return newStr
 }
@@ -73,6 +73,7 @@ const reverse = str {
 ```
 
 Recursion is a concept where you call the function being declared is called on itself in the body of the function. This example recursively calls itself, passing itself in the inputted string, excluding the first character on each iteration, which is instead appended to the result. This process then repeats itself until no input is present (the base case) which results in a reversed string.
+
 
 
 
