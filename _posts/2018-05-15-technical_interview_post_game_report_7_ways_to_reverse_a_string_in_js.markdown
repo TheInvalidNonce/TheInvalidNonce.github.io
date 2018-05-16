@@ -12,7 +12,7 @@ Among one of the questions I was asked during the technical interview was revers
 
 I'll be discussing some useful approaches one can keep in mind to approach this whiteboarding problem.
 
-1. Using built-in functions:
+1: Using built-in functions:
 
 ```
 const reverse = str => {
@@ -22,7 +22,7 @@ const reverse = str => {
 
 This version takes advantage of the ‘reverse()’ method provided by the Array prototype in Javascript. First it splits the string into an array, then calls the ‘reverse()’ method and finally returns the joined array.
 
-2. Decrementing for-loop with concatenation
+2: Decrementing for-loop with concatenation
 
 ```
 const reverse = str => {
@@ -35,7 +35,7 @@ const reverse = str => {
 
 Here we use a decrementing for-loop that appended each character of the input to a new string in reverse order starting with an empty string. Here you add the individual characters similar to the way you would reference an array’s items.
 
-3.  Incrementing for loop with array pushes and charAt:
+3:  Incrementing for loop with array pushes and charAt:
 
 ```
 const reverse = str => {
@@ -48,7 +48,7 @@ const reverse = str => {
 
 Here we use one incrementing value that gets deducted from the total length of the parsed in string. This calculated value determines the position of the next character to be added onto the new array (using the ‘push()’ function instead of ‘[]’).
 
-4. Decrementing while loop with concatenation and the substring String prototype method
+4: Decrementing while loop with concatenation and the substring String prototype method
 
 ```
 const reverse = str =>{
@@ -64,7 +64,7 @@ const reverse = str =>{
 
 Here we use a decrementing while loop. Using the power of string concatenation, I was able to implement a similar solution in a similar fashion to the for-loop used in the previous two examples. I was then able to use the very unpopular String prototype ‘substring()’ function to retrieve each desired character.
 
-5.  Recursion with the substring and charAt methods with ternary operators
+5:  Recursion with the substring and charAt methods with ternary operators
 
 ```
 const reverse = str {
