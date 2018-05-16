@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Technical Interview: Post Game Report (7 ways to reverse a string in JS)"
+title:      "Technical Interview: Post Game Report (5 ways to reverse a string in JS)"
 date:       2018-05-15 23:43:25 -0400
 permalink:  technical_interview_post_game_report_7_ways_to_reverse_a_string_in_js
 ---
@@ -74,7 +74,7 @@ const reverse = str {
 
 Recursion is a concept where you call the function being declared is called on itself in the body of the function. This example recursively calls itself, passing itself in the inputted string, excluding the first character on each iteration, which is instead appended to the result. This process then repeats itself until no input is present (the base case) which results in a reversed string.
 
-6
+
 
 
 
