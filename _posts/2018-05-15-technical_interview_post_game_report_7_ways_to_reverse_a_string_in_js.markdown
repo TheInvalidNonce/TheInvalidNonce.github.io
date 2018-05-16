@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Technical Interview: Post Game Report (7 ways to reverse a string in JS)"
-date:       2018-05-16 03:43:24 +0000
+date:       2018-05-15 23:43:25 -0400
 permalink:  technical_interview_post_game_report_7_ways_to_reverse_a_string_in_js
 ---
 
@@ -16,7 +16,7 @@ I'll be discussing some useful approaches one can keep in mind to approach this 
 
 ```
 const reverse = str => {
-  return str.split('').reverse().join('');
+  return str.split('').reverse().join('')
 }
 ```
 
@@ -26,10 +26,10 @@ This version takes advantage of the ‘reverse()’ method provided by the Array
 
 ```
 const reverse = str => {
-  let newStr = '';
+  let newStr = ''
   for (let i = str.length - 1; i >= 0; i--)
-    newStr += str[i];
-  return newStr;
+    newStr += str[i]
+  return newStr
 }
 ```
 
@@ -39,16 +39,44 @@ Here we use a decrementing for-loop that appended each character of the input to
 
 ```
 const reverse = str => {
-  let arr = [];
+  let arr = []
   for (let i = 0, i <= str.length; i++)
-    arr.push(str.charAt(str.length - i));
-  return arr.join('');
+    arr.push(str.charAt(str.length - i))
+  return arr.join('')
 }
 ```
 
 Here we use one incrementing value that gets deducted from the total length of the parsed in string. This calculated value determines the position of the next character to be added onto the new array (using the ‘push()’ function instead of ‘[]’).
 
-4. 
+4. Decrementing while loop with concatenation and the substring String prototype method
+
+```
+const reverse = str =>{
+  let i = s.length,
+  let newStr = ''
+  while (i > 0) {
+    newStr += str.substring(i - 1, i)
+    i--;
+  }
+  return newStr
+}
+```
+
+Here we use a decrementing while loop. Using the power of string concatenation, I was able to implement a similar solution in a similar fashion to the for-loop used in the previous two examples. I was then able to use the very unpopular String prototype ‘substring()’ function to retrieve each desired character.
+
+5.  Recursion with the substring and charAt methods with ternary operators
+
+```
+const reverse = str {
+  return (str === '') ? '' : reverse(str.substring(1)) + str.charAt(0)
+}
+```
+
+Recursion is a concept where you call the function being declared is called on itself in the body of the function. This example recursively calls itself, passing itself in the inputted string, excluding the first character on each iteration, which is instead appended to the result. This process then repeats itself until no input is present (the base case) which results in a reversed string.
+
+6
+
+
 
 
 
