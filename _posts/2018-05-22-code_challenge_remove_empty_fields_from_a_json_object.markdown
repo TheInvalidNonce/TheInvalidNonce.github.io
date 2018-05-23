@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Code Challenge : Remove Empty Fields from a JSON Object"
-date:       2018-05-23 03:53:32 +0000
+date:       2018-05-22 23:53:32 -0400
 permalink:  code_challenge_remove_empty_fields_from_a_json_object
 ---
 
@@ -71,7 +71,7 @@ I started by coding out my function by iterating through the whole object:
 
 ```
 const removeEmptyFields = (obj) => {
-      (obj[i] ===  ''|| obj[i] === ' ' || obj[i] === null) // Check if empty string, 1 character empty string, or null
+      if (obj[i] ===  ''|| obj[i] === ' ' || obj[i] === null) // Check if empty string, 1 character empty string, or null
         console.log('deleting:', obj[i]) // Log out what is being removed
         delete obj[i]
       }
