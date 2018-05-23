@@ -80,8 +80,17 @@ const removeEmptyFields = (obj) => {
 }
 ```
 
-Here I started out by using the ES6 for loop construct that allows you to loop through an object. In this iteration, I went through the object and began by checking if an object's value `obj[i]` contained a `null` value or an empty string or an empty string with one whitespace character.
+Here I started out by using the ES6 `for` loop construct that allows you to loop through an object. In this iteration, I went through the object and began by checking if an object's value `obj[i]` contained a `null` value or an empty string or an empty string with one whitespace character.
 
-This is a good start, until you realize that this only works for items nested one level deep. All of the nested invalid items are not being removed. This is a quickly becoming a problem
+This is a good start, until you realize that this only works for items only one level deep. All of the nested invalid items are not being removed. This is a quickly becoming a problem.
 
 The philosophical question of how does one iterate though an object when you don't know how deeply nested its key/value pairs can be pretty abstract to think about when first understanding the fundamentals of programming.
+
+In order to keep iterating through the object without knowing its structure beforehand requires a frequently seen computer science called recursion.
+
+# Recursion
+Recursion is a concept used in most programming languages. The basic notion of it is that you can call a function within itself. This may seem a bit foreign but once you get used to it, it can be a very powerful tool in your programming arsenal. 
+
+For the sake of brevity, I'll leave this [Wikipedia link](https://en.wikipedia.org/wiki/Recursion_(computer_science)) on the topic if you want a deeper understanding. 
+
+The main concept to grasp is that calling a function within itself is fine as long as you have a conditional base case to prevent the computer from trying to create a nonstop 
