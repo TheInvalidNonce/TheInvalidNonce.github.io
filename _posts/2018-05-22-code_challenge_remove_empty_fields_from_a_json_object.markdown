@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Code Challenge : Remove Empty Fields from a JSON Object"
+title:      "Code Challenge: Remove Empty Fields from a JSON Object"
 date:       2018-05-22 23:53:32 -0400
 permalink:  code_challenge_remove_empty_fields_from_a_json_object
 ---
