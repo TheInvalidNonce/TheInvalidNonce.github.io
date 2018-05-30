@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Javascript Concepts: Hoisting Around"
+title:      "JavaScript Concepts: Hoisting Around"
 date:       2018-05-29 23:45:35 -0400
 permalink:  javascript_concepts_hoisiting_around
 ---
